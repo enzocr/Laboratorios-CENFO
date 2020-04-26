@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FxJavaFXApplication6.jnlp">
+  <information>
+    <title>FxJavaFXApplication6</title>
+    <vendor>enzoq</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FxJavaFXApplication6.jar" size="8229" download="eager" />
+    <jar href="lib\sqljdbc41.jar" size="893229" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="FxJavaFXApplication6" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="fxjavafxapplication6.FxJavaFXApplication6"  name="FxJavaFXApplication6" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="crearCuentaJuez.CrearCuentaJuezController">
+   <children>
+      <TextField fx:id="txtPrimerNombre" layoutX="52.0" layoutY="55.0" promptText="Primer Nombre" />
+      <TextField fx:id="txtPrimerApellido" layoutX="351.0" layoutY="55.0" promptText="Primer Apellido" />
+      <TextField fx:id="txtTelefono" layoutX="52.0" layoutY="119.0" promptText="Telefono" />
+      <TextField fx:id="txtCedula" layoutX="351.0" layoutY="119.0" promptText="Cedula" />
+      <TextField fx:id="txtSala" layoutX="52.0" layoutY="188.0" promptText="Sala" />
+      <TextField fx:id="txtUsuario" layoutX="351.0" layoutY="188.0" promptText="Usuario" />
+      <TextField fx:id="txtClave" layoutX="201.0" layoutY="266.0" promptText="Clave" />
+      <Label fx:id="lblPrimerNombre" layoutX="113.0" layoutY="80.0" prefHeight="17.0" prefWidth="64.0" />
+      <Label fx:id="lblPrimerApellido" layoutX="412.0" layoutY="80.0" prefHeight="17.0" prefWidth="64.0" />
+      <Label fx:id="lblTelefono" layoutX="109.0" layoutY="144.0" prefHeight="17.0" prefWidth="78.0" />
+      <Label fx:id="lblCedula" layoutX="398.0" layoutY="144.0" prefHeight="17.0" prefWidth="56.0" />
+      <Label fx:id="lblSala" layoutX="99.0" layoutY="213.0" prefHeight="17.0" prefWidth="56.0" />
+      <Label fx:id="lblUsuario" layoutX="394.0" layoutY="213.0" prefHeight="17.0" prefWidth="64.0" />
+      <Label fx:id="lblClave" layoutX="244.0" layoutY="291.0" prefHeight="17.0" prefWidth="64.0" />
+      <Label fx:id="registroExitoso" layoutX="250.0" layoutY="347.0" prefHeight="17.0" prefWidth="64.0" />
+      <Button layoutX="250.0" layoutY="322.0" mnemonicParsing="false" onAction="#registrarJuez" text="Registrar" />
+   </children>
+</AnchorPane>
